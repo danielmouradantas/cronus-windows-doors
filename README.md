@@ -9,7 +9,7 @@ This repository contains the source code for the Cronus Windows & Doors marketin
 - **doors.html** – Dedicated service page detailing our entry and patio door offerings, benefits and call to action.
 - **style.css** – Central stylesheet defining the colour palette, typography, layout and responsive styling.
 - **script.js** – Small enhancements, such as updating the copyright year dynamically.
-- **assets/images/** – Contains the logo and placeholder imagery used across the site.
+- **assets/images/** – Contains the new logo (`logo-new.png`) and placeholder imagery used across the site.
 
 ## Deployment
 

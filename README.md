@@ -1,11 +1,14 @@
-# Cronus Windows & Doors — Premium V7
+# Cronus Windows & Doors — Premium Homepage
 
-Upload these files directly into the root of your GitHub repository:
+Upload all files directly to the root of your GitHub repository:
+
 - index.html
-- hero.jpg
-- window.jpg
-- entrydoor.jpg
-- patiodoor.jpg
+- style.css
+- cronus.jpg
+- replacement-windows.jpg
+- entry-doors.jpg
+- patio-doors.jpg
+- home-solution.jpg
 - README.md
 
-Do not upload this version inside an assets folder.
+Do not put these files inside another folder before uploading.

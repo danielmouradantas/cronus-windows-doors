@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Replacement window services by Cronus Windows & Doors. Learn about our energy‑efficient windows and expert installation throughout Central Florida and the Low Country of South Carolina.">
+    <title>Window Replacement | Cronus Windows & Doors</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-dN3dKq1nJ+riQFk3+GNf0jV5Rx4TfECZKc+oR7HDW9G+536us+Z8zNEfE5JNrM7i1mBVFe4WVXBGoZ+6B1LV2Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a class="logo" href="index.html">
+                <img src="assets/images/logo.jpg" alt="Cronus Windows & Doors logo">
+            </a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#why">Why Cronus</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#financing">Financing</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#gallery">Gallery</a></li>
+                    <li><a href="index.html#reviews">Reviews</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="index.html#contact" class="cta">Free Estimate</a>
+        </div>
+    </header>
+    <!-- Page hero -->
+    <section class="hero" style="background-image: url('assets/images/window.jpg');">
+        <div class="overlay"></div>
+        <div class="container hero-content">
+            <h1>Window Replacement</h1>
+            <p>Enhance your home's comfort, efficiency &amp; curb appeal.</p>
+            <a href="index.html#contact" class="btn btn-primary">Request Your Free Estimate</a>
+        </div>
+    </section>
+    <!-- Details section -->
+    <section class="services" style="padding-top: 3rem;">
+        <div class="container">
+            <h2>Upgrade Your Home with New Windows</h2>
+            <p>Our window replacement solutions are designed to reduce energy costs, increase natural light and elevate the beauty of your home. Cronus installs high‑performance windows from Ply Gem, a trusted manufacturer known for quality and value. Whether you're replacing a single window or your entire home, we'll help you select the right style and features for your needs.</p>
+            <div class="service-cards" style="grid-template-columns: repeat(auto-fit, minmax(300px,1fr));">
+                <div class="service-card" style="background: var(--color-white);">
+                    <h3>Energy Efficiency</h3>
+                    <p>Lower your utility bills with insulated glass, low‑E coatings and tight seals that minimize heat transfer.</p>
+                </div>
+                <div class="service-card" style="background: var(--color-white);">
+                    <h3>Enhanced Curb Appeal</h3>
+                    <p>Choose from a range of styles, colors and grille patterns to complement your home's architecture.</p>
+                </div>
+                <div class="service-card" style="background: var(--color-white);">
+                    <h3>Superior Protection</h3>
+                    <p>Impact‑rated windows available to protect against hurricanes and harsh weather conditions.</p>
+                </div>
+                <div class="service-card" style="background: var(--color-white);">
+                    <h3>Expert Installation</h3>
+                    <p>Our trained team ensures a precise fit and finish for long‑lasting performance and warranty coverage.</p>
+                </div>
+                <div class="service-card" style="background: var(--color-white);">
+                    <h3>Flexible Financing</h3>
+                    <p>Take advantage of payment options through Acorn Finance to make your project more affordable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" style="padding-top: 3rem;">
+        <div class="container">
+            <h2>Ready to Replace Your Windows?</h2>
+            <p>Schedule a free in‑home consultation today and discover how new windows can transform your home.</p>
+            <a href="index.html#contact" class="btn btn-primary">Get Started</a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="assets/images/logo.jpg" alt="Cronus Windows &amp; Doors logo">
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#financing">Financing</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="container">
+            <p class="copy">&copy; <span id="year-window"></span> Cronus Windows &amp; Doors. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script>
+    // update year for this page
+    document.addEventListener('DOMContentLoaded', function() {
+        var span = document.getElementById('year-window');
+        if (span) span.textContent = new Date().getFullYear();
+    });
+    </script>
+</body>
+</html>

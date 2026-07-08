@@ -1,7 +1,11 @@
-document.getElementById('year').textContent = new Date().getFullYear();
-const toggle = document.querySelector('.nav-toggle');
-const links = document.querySelector('.nav-links');
-toggle?.addEventListener('click', () => links.classList.toggle('open'));
-document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
-const observer = new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');}})},{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+// Cronus Windows & Doors JavaScript
+// This file contains small enhancements to improve user experience,
+// such as updating the copyright year dynamically.
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Update the copyright year in the footer
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    }
+});
